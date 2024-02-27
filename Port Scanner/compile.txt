@@ -1,0 +1,7 @@
+compile:
+javac -cp . PortScanner.java
+
+run:
+java -cp . PortScanner <ip address> 
+
+
