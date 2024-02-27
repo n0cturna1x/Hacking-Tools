@@ -1,0 +1,1 @@
+gcc hash_key_decryptor.c -o hash_key_decryptor -lcrypt && valgrind --leak-check=full ./hash_key_decryptor 23 dNpxBzJg/Cg
