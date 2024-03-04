@@ -91,7 +91,7 @@ def decode_text():
         textbox.insert(1.0, f'Cannot read file {image_name}\n')
 
 
-# Function to clear entry fields and textbox.
+# Function to clear entry fields and textbox
 def clear_click():
     load_image_entry.delete(0, END)
     encode_text_entry.delete(0, END)
